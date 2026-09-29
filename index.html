@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic User Interface ni Adi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>STUDENT DIRECTORY</h1>
+        <small>This is the list of students</small>
+    </header>
+
+    <section = id="formContainer">
+        <form id="studentForm">
+            <div>
+                <label for="name">Student Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="input-fields">
+                <label for="program">Program:</label>
+                <input type="text" name="program" id="program"> 
+            </div>
+            <div> 
+                <Button type="submit">ADD STUDENT</Button>
+            </div>
+        </form>
+    </section>
+
+    <section id="studentList">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
